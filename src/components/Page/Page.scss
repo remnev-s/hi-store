@@ -1,0 +1,31 @@
+.header__promo {
+  background-color: #d0cfcd;
+
+  display: flex;
+  justify-content: center;
+
+  min-height: 70vh;
+  text-align: center;
+  color: #353535;
+}
+
+.header__promo-inner {
+}
+
+.header__promo-title {
+  font-size: 6.4rem;
+  text-align: center;
+  max-width: 60.5rem;
+  margin: 15rem 0 5rem;
+}
+
+.header__promo-subtitle {
+  margin-bottom: 11.2rem;
+}
+
+.header__promo-subtitle p {
+  font-size: 2.4rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
