@@ -1,0 +1,96 @@
+.footer {
+  margin: 5rem 0 3rem;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.5rem;
+
+    @media only screen and (max-width: 786px) {
+      // grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1/6;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-family: 1.3rem;
+    font-weight: bold;
+    color: #151515;
+    letter-spacing: 0.1rem;
+  }
+
+  &__copyright-trext {
+  }
+}
+
+.social {
+  @media only screen and (max-width: 786px) {
+    grid-column: 1/2;
+  }
+}
+.police {
+  @media only screen and (max-width: 786px) {
+    // grid-column: 2/3;
+  }
+}
+
+.list {
+  list-style-type: none;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+
+  &__link {
+    text-decoration: none;
+    color: #151515;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0.1rem;
+      background: #151515;
+      transition: width 0.3s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 44rem;
+
+  @media only screen and (max-width: 786px) {
+    grid-column: 3/5;
+  }
+}
+
+.form-title {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.form-label {
+  font-size: 0;
+  display: none;
+}
+
+.form-input {
+  margin-bottom: 0.5rem;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 0.1rem solid #151515;
+
+  &:focus {
+    outline: none;
+  }
+}

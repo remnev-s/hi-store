@@ -1,0 +1,33 @@
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem;
+  gap: 5rem;
+  margin-bottom: 13.5rem;
+}
+.about-section__img {
+  width: 100%;
+}
+.about-section__inner {
+  color: #353535;
+}
+.about-section__title {
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+@media only screen and (max-width: 786px) {
+  .about-section__title {
+    font-size: 3.4rem;
+    line-height: 4rem;
+  }
+}
+.about-section__subtitle {
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  max-width: 44rem;
+  margin-bottom: 7rem;
+}
+
+/*# sourceMappingURL=aboutSection.css.map */
