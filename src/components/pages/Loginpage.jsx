@@ -1,5 +1,6 @@
 import React from 'react';
+import { Login } from '../Login/Login';
 
 export const Loginpage = () => {
-  return <h1> This login page bitch </h1>;
+  return <Login />;
 };

@@ -1,0 +1,47 @@
+.login-page {
+  height: 50vh;
+  margin: 15rem 0;
+}
+.login-page__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10rem;
+}
+@media only screen and (max-width: 786px) {
+  .login-page__inner {
+    column-gap: 3rem;
+  }
+}
+
+.form-description {
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+
+.form__login-set {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  width: 100%;
+  padding: 1.2rem;
+}
+
+.form__login label:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.form__login label:last-of-type {
+  margin-bottom: 3rem;
+}
+
+.forg-password {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=Login.css.map */

@@ -55,7 +55,7 @@ export const Footer = () => {
           <input
             className='form-input'
             type='email'
-            id='login-email'
+            id='email'
             placeholder='Email Address'
           />
           <Buttons smallButton={true} text='Sign up' />
