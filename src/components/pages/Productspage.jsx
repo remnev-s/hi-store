@@ -1,5 +1,10 @@
 import React from 'react';
+import { Products } from '../../components/Products/Products';
 
 export const Productspage = () => {
-  return <h1> Products page </h1>;
+  return (
+    <div className='main wrapper'>
+      <Products />;
+    </div>
+  );
 };

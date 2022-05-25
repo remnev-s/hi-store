@@ -17,6 +17,12 @@
   color: #151515;
   letter-spacing: 0.1rem;
 }
+@media only screen and (max-width: 786px) {
+  .social {
+    grid-column: 1/2;
+  }
+}
+
 .list {
   list-style-type: none;
   font-size: 1.6rem;
@@ -67,6 +73,7 @@
   font-size: 1.6rem;
   border: none;
   border-bottom: 0.1rem solid #151515;
+  background-color: transparent;
 }
 .form-input:focus {
   outline: none;
