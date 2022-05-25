@@ -6,5 +6,8 @@
   display: grid;
   place-items: center;
 }
+.read-more__img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=readMore.css.map */
