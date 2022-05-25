@@ -1,6 +1,10 @@
 .login-page {
   height: 50vh;
   margin: 15rem 0;
+  @media only screen and (max-width: 786px) {
+    margin: 5rem 0;
+    margin-bottom: 20rem;
+  }
 
   &__inner {
     display: grid;
@@ -10,16 +14,24 @@
     @media only screen and (max-width: 786px) {
       column-gap: 3rem;
     }
+    @media only screen and (max-width: 650px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
 .form-description {
   font-size: 3.6rem;
   margin-bottom: 4rem;
+  @media only screen and (max-width: 786px) {
+    margin-bottom: 2rem;
+  }
 }
 
 .form__login {
-  // outline: 1px solid red;
+  @media only screen and (max-width: 786px) {
+    margin-bottom: 5rem;
+  }
 
   &-set {
     border: none;
