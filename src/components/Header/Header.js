@@ -27,7 +27,10 @@ export const Header = ({ count }) => {
               </Link>
             </li>
           </ul>
-          <div class='header__burger-menu'>
+          <div
+            className='header__burger-menu'
+            onClick={() => console.log('burger')}
+          >
             <span></span>
           </div>
           <Link className='logo' to='/'>

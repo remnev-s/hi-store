@@ -76,6 +76,7 @@
 }
 
 .header__burger-menu {
+  display: none;
   @media (max-width: 650px) {
     position: absolute;
 

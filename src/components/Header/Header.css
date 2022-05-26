@@ -44,6 +44,11 @@
   display: grid;
   justify-content: center;
 }
+@media only screen and (max-width: 650px) {
+  .header .logo {
+    display: none;
+  }
+}
 .header .list {
   list-style-type: none;
 }
@@ -62,6 +67,9 @@
   }
 }
 
+.header__burger-menu {
+  display: none;
+}
 @media (max-width: 650px) {
   .header__burger-menu {
     position: absolute;
