@@ -10,7 +10,7 @@ export const Header = ({ count }) => {
     <>
       <header className='header'>
         <div className='header__nav wrapper'>
-          <ul className='nav'>
+          <ul className='nav nav-menu nav__mobile'>
             <li className='list nav__list'>
               <Link className='nav__link' to='/products'>
                 Products
@@ -27,7 +27,9 @@ export const Header = ({ count }) => {
               </Link>
             </li>
           </ul>
-
+          <div class='header__burger-menu'>
+            <span></span>
+          </div>
           <Link className='logo' to='/'>
             <img src={logo} alt='logo' />
           </Link>

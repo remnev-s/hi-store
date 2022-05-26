@@ -33,4 +33,8 @@
 
 .cost-sale {
   grid-row: 1/2;
+
+  @media only screen and (max-width: 650px) {
+    grid-row: 2/3;
+  }
 }

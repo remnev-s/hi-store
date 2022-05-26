@@ -6,6 +6,11 @@
   grid-template-columns: repeat(4, 1fr);
   row-gap: 1.5rem;
 }
+@media only screen and (max-width: 650px) {
+  .footer__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 .footer__copyright {
   display: flex;
   justify-content: space-between;
@@ -19,6 +24,12 @@
 }
 @media only screen and (max-width: 786px) {
   .social {
+    grid-column: 1/2;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .police {
     grid-column: 1/2;
   }
 }
