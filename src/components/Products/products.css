@@ -17,6 +17,7 @@
   .products__list {
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    row-gap: 4rem;
   }
 }
 .products__img {
@@ -28,6 +29,11 @@
 
 .cost-sale {
   grid-row: 1/2;
+}
+@media only screen and (max-width: 650px) {
+  .cost-sale {
+    grid-row: 2/3;
+  }
 }
 
 /*# sourceMappingURL=products.css.map */
